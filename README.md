@@ -1,6 +1,6 @@
 # 🔐 Security Writeups
 
-![Labs](https://img.shields.io/badge/Labs%20Resolvidos-13-blue?style=flat-square&logo=hackthebox&logoColor=white)
+![Labs](https://img.shields.io/badge/Labs%20Resolvidos-29-blue?style=flat-square&logo=hackthebox&logoColor=white)
 ![Platform](https://img.shields.io/badge/PortSwigger-Academy-orange?style=flat-square&logo=google-chrome&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Web%20Security-blueviolet?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Em%20progresso-green?style=flat-square)
@@ -18,8 +18,9 @@ Documentação dos meus estudos e labs práticos em segurança ofensiva, com foc
 ```
 security-writeups/
 └── web-security/
-    ├── access-control/
-    └── sql-injection/
+    └── portswigger/
+        ├── access-control/
+        └── sql-injection/
 ```
 
 ### 📊 Progresso por Categoria
@@ -27,7 +28,7 @@ security-writeups/
 | Categoria | Progresso | Apprentice | Practitioner | Total |
 |-----------|-----------|-----------|--------------|-------|
 | Access Control & IDOR | `██████████` 100% | 9 ✅ | 4 ✅ | **13** |
-| SQL Injection | `░░░░░░░░░░` 0% | — | — | **em breve** |
+| SQL Injection | `██████████` 100% | 2 ✅ | 14 ✅ | **16** |
 | XSS | `░░░░░░░░░░` 0% | — | — | **em breve** |
 
 ### Writeups — Access Control & IDOR
@@ -48,6 +49,27 @@ security-writeups/
 | 12 | [Multi-Step Process with No Access Control](./web-security/access-control/lab-12-multi-step-no-access-control.md) | 🟡 Practitioner | ✅ |
 | 13 | [Referer-Based Access Control](./web-security/access-control/lab-13-referer-based-access-control.md) | 🟡 Practitioner | ✅ |
 
+### Writeups — SQL Injection
+
+| # | Lab | Dificuldade | Status |
+|---|-----|-------------|--------|
+| 01 | [WHERE Clause — Retrieving Hidden Data](./web-security/sql-injection/lab-01-where-clause-hidden-data.md) | 🟢 Apprentice | ✅ |
+| 02 | [Login Bypass](./web-security/sql-injection/lab-02-login-bypass.md) | 🟢 Apprentice | ✅ |
+| 03 | [UNION — Database Version (Oracle)](./web-security/sql-injection/lab-03-union-version-oracle.md) | 🟡 Practitioner | ✅ |
+| 04 | [UNION — Database Version (MySQL/Microsoft)](./web-security/sql-injection/lab-04-union-version-mysql-microsoft.md) | 🟡 Practitioner | ✅ |
+| 05 | [UNION — Listing Contents (Non-Oracle)](./web-security/sql-injection/lab-05-listing-contents-non-oracle.md) | 🟡 Practitioner | ✅ |
+| 06 | [UNION — Listing Contents (Oracle)](./web-security/sql-injection/lab-06-listing-contents-oracle.md) | 🟡 Practitioner | ✅ |
+| 07 | [UNION — Determining Number of Columns](./web-security/sql-injection/lab-07-union-number-of-columns.md) | 🟡 Practitioner | ✅ |
+| 08 | [UNION — Finding a Column Containing Text](./web-security/sql-injection/lab-08-union-find-text-column.md) | 🟡 Practitioner | ✅ |
+| 09 | [UNION — Retrieving Data from Other Tables](./web-security/sql-injection/lab-09-union-retrieve-data-other-tables.md) | 🟡 Practitioner | ✅ |
+| 10 | [UNION — Multiple Values in a Single Column](./web-security/sql-injection/lab-10-union-multiple-values-single-column.md) | 🟡 Practitioner | ✅ |
+| 11 | [Blind — Conditional Responses](./web-security/sql-injection/lab-11-blind-conditional-responses.md) | 🟡 Practitioner | ✅ |
+| 12 | [Blind — Conditional Errors](./web-security/sql-injection/lab-12-blind-conditional-errors.md) | 🟡 Practitioner | ✅ |
+| 13 | [Visible Error-Based](./web-security/sql-injection/lab-13-visible-error-based.md) | 🟡 Practitioner | ✅ |
+| 14 | [Blind — Time Delays](./web-security/sql-injection/lab-14-blind-time-delays.md) | 🟡 Practitioner | ✅ |
+| 15 | [Blind — Time Delays and Information Retrieval](./web-security/sql-injection/lab-15-blind-time-delays-info-retrieval.md) | 🟡 Practitioner | ✅ |
+| 16 | [Filter Bypass via XML Encoding](./web-security/sql-injection/lab-16-filter-bypass-xml-encoding.md) | 🟡 Practitioner | ✅ |
+
 ### Plataformas de estudo
 
 - [PortSwigger Web Security Academy](https://portswigger.net/web-security)
@@ -63,8 +85,9 @@ Documentation of my practical studies and labs in offensive security, focused on
 ```
 security-writeups/
 └── web-security/
-    ├── access-control/
-    └── sql-injection/
+    └── portswigger/
+        ├── access-control/
+        └── sql-injection/
 ```
 
 ### 📊 Progress by Category
@@ -72,7 +95,7 @@ security-writeups/
 | Category | Progress | Apprentice | Practitioner | Total |
 |----------|----------|-----------|--------------|-------|
 | Access Control & IDOR | `██████████` 100% | 9 ✅ | 4 ✅ | **13** |
-| SQL Injection | `░░░░░░░░░░` 0% | — | — | **coming soon** |
+| SQL Injection | `██████████` 100% | 2 ✅ | 14 ✅ | **16** |
 | XSS | `░░░░░░░░░░` 0% | — | — | **coming soon** |
 
 ### Writeups — Access Control & IDOR
@@ -92,6 +115,27 @@ security-writeups/
 | 11 | [Insecure Direct Object References (IDOR)](./web-security/access-control/lab-11-insecure-direct-object-references.md) | 🟢 Apprentice | ✅ |
 | 12 | [Multi-Step Process with No Access Control](./web-security/access-control/lab-12-multi-step-no-access-control.md) | 🟡 Practitioner | ✅ |
 | 13 | [Referer-Based Access Control](./web-security/access-control/lab-13-referer-based-access-control.md) | 🟡 Practitioner | ✅ |
+
+### Writeups — SQL Injection
+
+| # | Lab | Difficulty | Status |
+|---|-----|------------|--------|
+| 01 | [WHERE Clause — Retrieving Hidden Data](./web-security/sql-injection/lab-01-where-clause-hidden-data.md) | 🟢 Apprentice | ✅ |
+| 02 | [Login Bypass](./web-security/sql-injection/lab-02-login-bypass.md) | 🟢 Apprentice | ✅ |
+| 03 | [UNION — Database Version (Oracle)](./web-security/sql-injection/lab-03-union-version-oracle.md) | 🟡 Practitioner | ✅ |
+| 04 | [UNION — Database Version (MySQL/Microsoft)](./web-security/sql-injection/lab-04-union-version-mysql-microsoft.md) | 🟡 Practitioner | ✅ |
+| 05 | [UNION — Listing Contents (Non-Oracle)](./web-security/sql-injection/lab-05-listing-contents-non-oracle.md) | 🟡 Practitioner | ✅ |
+| 06 | [UNION — Listing Contents (Oracle)](./web-security/sql-injection/lab-06-listing-contents-oracle.md) | 🟡 Practitioner | ✅ |
+| 07 | [UNION — Determining Number of Columns](./web-security/sql-injection/lab-07-union-number-of-columns.md) | 🟡 Practitioner | ✅ |
+| 08 | [UNION — Finding a Column Containing Text](./web-security/sql-injection/lab-08-union-find-text-column.md) | 🟡 Practitioner | ✅ |
+| 09 | [UNION — Retrieving Data from Other Tables](./web-security/sql-injection/lab-09-union-retrieve-data-other-tables.md) | 🟡 Practitioner | ✅ |
+| 10 | [UNION — Multiple Values in a Single Column](./web-security/sql-injection/lab-10-union-multiple-values-single-column.md) | 🟡 Practitioner | ✅ |
+| 11 | [Blind — Conditional Responses](./web-security/sql-injection/lab-11-blind-conditional-responses.md) | 🟡 Practitioner | ✅ |
+| 12 | [Blind — Conditional Errors](./web-security/sql-injection/lab-12-blind-conditional-errors.md) | 🟡 Practitioner | ✅ |
+| 13 | [Visible Error-Based](./web-security/sql-injection/lab-13-visible-error-based.md) | 🟡 Practitioner | ✅ |
+| 14 | [Blind — Time Delays](./web-security/sql-injection/lab-14-blind-time-delays.md) | 🟡 Practitioner | ✅ |
+| 15 | [Blind — Time Delays and Information Retrieval](./web-security/sql-injection/lab-15-blind-time-delays-info-retrieval.md) | 🟡 Practitioner | ✅ |
+| 16 | [Filter Bypass via XML Encoding](./web-security/sql-injection/lab-16-filter-bypass-xml-encoding.md) | 🟡 Practitioner | ✅ |
 
 ### Study platforms
 
